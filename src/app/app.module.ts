@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { VenteCommandePanierComponent } from './vente-commande-panier/vente-commande-panier.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    SidebarComponent
+    SidebarComponent,
+    VenteCommandePanierComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
